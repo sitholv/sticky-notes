@@ -1,0 +1,15 @@
+{% extends 'notes/base.html' %}
+{% block title %}Delete note · Sticky Notes{% endblock %}
+{% block content %}
+  <a class="back-link" href="{{ note.get_absolute_url }}">← Back to note</a>
+  <section class="reading-panel">
+    <h1>Delete this note?</h1>
+    <p class="delete-title">{{ note.title }}</p>
+    <p>This permanently removes the note from your notebook. This cannot be undone.</p>
+    <form method="post" class="actions">
+      {% csrf_token %}
+      <button class="button danger" type="submit">Delete note</button>
+      <a class="button secondary" href="{{ note.get_absolute_url }}">Keep note</a>
+    </form>
+  </section>
+{% endblock %}

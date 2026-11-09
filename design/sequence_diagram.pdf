@@ -1,0 +1,136 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Producer (PyPDF2)
+/Author (Vusi\040Sithole)
+/Title (sequence\137diagram)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+>>
+/MediaBox [ 0 0 1100 760 ]
+/Parent 1 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+7 0 obj
+<<
+/Length 4783
+>>
+stream
+0.12 0.13 0.12 rg BT /F2 25 Tf 1 0 0 1 40 718 Tm (Sequence diagram) Tj ET
+0.12 0.13 0.12 rg BT /F1 13 Tf 1 0 0 1 40 692 Tm (Create-note happy path, validation failure and deletion safety.) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 40 672 m 1060 672 l S
+0.12 0.13 0.12 rg BT /F1 11 Tf 1 0 0 1 40 30 Tm (Vusi Sithole | VS26060020556 | Sticky Notes) Tj ET
+0.95 0.96 0.96 rg 0.72 0.78 0.75 RG [] 0 d 25 605 150 45 re B
+0.12 0.13 0.12 rg BT /F2 13 Tf 1 0 0 1 39 625 Tm (User/browser) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 100 605 m 100 195 l S
+0.95 0.96 0.96 rg 0.72 0.78 0.75 RG [] 0 d 240 605 150 45 re B
+0.12 0.13 0.12 rg BT /F2 13 Tf 1 0 0 1 254 625 Tm (URL + view) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 315 605 m 315 195 l S
+0.95 0.96 0.96 rg 0.72 0.78 0.75 RG [] 0 d 460 605 150 45 re B
+0.12 0.13 0.12 rg BT /F2 13 Tf 1 0 0 1 474 625 Tm (NoteForm) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 535 605 m 535 195 l S
+0.95 0.96 0.96 rg 0.72 0.78 0.75 RG [] 0 d 680 605 150 45 re B
+0.12 0.13 0.12 rg BT /F2 13 Tf 1 0 0 1 694 625 Tm (Note / ORM) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 755 605 m 755 195 l S
+0.95 0.96 0.96 rg 0.72 0.78 0.75 RG [] 0 d 900 605 150 45 re B
+0.12 0.13 0.12 rg BT /F2 13 Tf 1 0 0 1 914 625 Tm (SQLite) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 975 605 m 975 195 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 100 575 m 315 575 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 315 575 m 306.8959760788259 571.0853101929989 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 315 575 m 306.8959760788259 578.9146898070011 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 108 583 Tm (GET /notes/new/) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 315 535 m 535 535 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 535 535 m 526.8959760788259 531.0853101929989 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 535 535 m 526.8959760788259 538.9146898070011 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 323 543 Tm (Build empty form) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 315 495 m 100 495 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 100 495 m 108.10402392117409 498.9146898070011 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 100 495 m 108.10402392117409 491.0853101929989 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 108 503 Tm (200 form + CSRF token) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 100 455 m 315 455 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 315 455 m 306.8959760788259 451.0853101929989 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 315 455 m 306.8959760788259 458.9146898070011 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 108 463 Tm (POST title, content, token) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 315 415 m 535 415 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 535 415 m 526.8959760788259 411.0853101929989 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 535 415 m 526.8959760788259 418.9146898070011 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 323 423 Tm (Bind input; is_valid\(\)) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 535 375 m 755 375 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 755 375 m 746.8959760788259 371.0853101929989 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 755 375 m 746.8959760788259 378.9146898070011 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 543 383 Tm (Valid: save\(\)) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 755 335 m 975 335 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 975 335 m 966.8959760788259 331.0853101929989 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 975 335 m 966.8959760788259 338.9146898070011 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 763 343 Tm (INSERT note) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 975 295 m 755 295 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 755 295 m 763.1040239211741 298.9146898070011 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 755 295 m 763.1040239211741 291.0853101929989 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 763 303 Tm (Saved primary key) Tj ET
+0.39 0.39 0.38 RG 1 w [5 4] 0 d 315 255 m 100 255 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 100 255 m 108.10402392117409 258.9146898070011 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 100 255 m 108.10402392117409 251.08531019299892 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 108 263 Tm (302 detail URL + message) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 100 215 m 315 215 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 315 215 m 306.8959760788259 211.08531019299892 l S
+0.39 0.39 0.38 RG 1 w [] 0 d 315 215 m 306.8959760788259 218.91468980700108 l S
+0.12 0.13 0.12 rg BT /F1 12 Tf 1 0 0 1 108 223 Tm (GET detail -> 200 note) Tj ET
+0.95 0.96 0.96 rg 0.72 0.78 0.75 RG [] 0 d 40 65 1020 100 re B
+0.12 0.13 0.12 rg BT /F2 13 Tf 1 0 0 1 54 140 Tm (Alternative and safety paths) Tj ET
+0.12 0.13 0.12 rg BT /F1 13 Tf 1 0 0 1 54 119 Tm (Invalid form: return 200 with field errors; no INSERT or redirect. Missing note: 404.) Tj ET
+0.12 0.13 0.12 rg BT /F1 13 Tf 1 0 0 1 54 98 Tm (Delete: GET renders confirmation only. A valid CSRF-protected POST deletes, then redirects.) Tj ET
+0.12 0.13 0.12 rg BT /F1 13 Tf 1 0 0 1 54 77 Tm (Middleware rejects missing/invalid CSRF tokens before a write reaches the view.) Tj ET
+0.39 0.39 0.38 RG 1 w [] 0 d 40 130 m 1060 130 l S
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000074 00000 n 
+0000000169 00000 n 
+0000000218 00000 n 
+0000000309 00000 n 
+0000000379 00000 n 
+0000000454 00000 n 
+trailer
+<<
+/Size 8
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+5289
+%%EOF

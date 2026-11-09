@@ -1,0 +1,30 @@
+{% load static %}
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple local board to write, read and organise your notes.">
+  <title>{% block title %}Sticky Notes{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'notes/style.css' %}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to notes</a>
+  <div class="workspace">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="brand" href="{% url 'notes:list' %}">Sticky Notes<span>Vusi's notebook</span></a>
+      <a class="nav-link" href="{% url 'notes:list' %}">All notes</a>
+      <p class="local-label">Local workspace<br>No account required</p>
+    </nav>
+    <main id="main" tabindex="-1">
+      {% if messages %}
+        <div class="messages" role="status">
+          {% for message in messages %}<p>{{ message }}</p>{% endfor %}
+        </div>
+      {% endif %}
+      {% block content %}{% endblock %}
+      <footer>Sticky Notes · Write it down. Come back to it.</footer>
+    </main>
+  </div>
+</body>
+</html>

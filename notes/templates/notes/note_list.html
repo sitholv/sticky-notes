@@ -1,0 +1,31 @@
+{% extends 'notes/base.html' %}
+{% block content %}
+  <header class="page-heading">
+    <div>
+      <h1>A little space for your thoughts.</h1>
+      <p>{{ notes|length }} note{{ notes|length|pluralize }} in your notebook. Most recently edited first.</p>
+    </div>
+    <a class="button primary" href="{% url 'notes:create' %}">New note <span aria-hidden="true">+</span></a>
+  </header>
+  {% if notes %}
+    <section class="note-grid" aria-label="Your notes">
+      {% for note in notes %}
+        <article class="note-card">
+          <p class="note-number">Note {{ note.pk|stringformat:'02d' }}</p>
+          <h2><a href="{{ note.get_absolute_url }}">{{ note.title }}</a></h2>
+          <p class="preview">{{ note.content|truncatechars:180 }}</p>
+          <div class="card-bottom">
+            <time datetime="{{ note.updated_at|date:'c' }}">{{ note.updated_at|date:'d M Y' }}</time>
+            <a href="{% url 'notes:update' note.pk %}" aria-label="Edit {{ note.title }}">Edit <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      {% endfor %}
+    </section>
+  {% else %}
+    <section class="empty-state">
+      <p class="note-number">Your notebook starts here</p>
+      <h2>No notes yet.</h2>
+      <p>Use New note to save an idea, a reminder or something worth remembering.</p>
+    </section>
+  {% endif %}
+{% endblock %}
